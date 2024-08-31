@@ -1,0 +1,112 @@
+.NavBar{
+    width: 100%;
+    height: 100px;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+
+}
+.NavBar ul{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    position: absolute;
+    top: 28px;
+    right: 300px;
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 600;
+}
+
+.button{
+    width: 150px;
+    height: 50px;
+    border:  1px solid black;
+    position:absolute;
+    right: 50px;    
+    top: 28px;
+    border-radius: 15px;
+    text-align: center;
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 600;
+    
+}
+
+.NavBar img{
+    width: 280px;
+    height: 60px;
+    display: flex;
+    position: absolute;
+    top:1px ;
+    right: 900px;
+
+}
+
+/* <<<<<<<<<<<<<<<Hero Section>>>>>>>>> */
+.para{
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 600;
+    font-size: 45px;
+    left: 10px;
+    position: relative;
+    left: 120px;
+    top: 50px;
+
+}
+
+.spara{
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    position: relative;
+    left: 120px;
+    top: 90px;
+   
+}
+
+.nbutton{
+    width: 200px;
+    height: 50px;
+    border: 1px solid #191A23;
+    background-color: #191A23;
+    border-radius: 15px;
+    position: relative;
+    left: 120px;    
+    top: 120px;
+}
+
+.nbutton p{
+    position: relative;
+    left: 28px;
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    color: white;
+
+}
+ 
+.heropic{
+    width: 100%;
+    height: 500px;
+    background-image: url(Header.png);
+    background-size: contain ;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 150px;
+
+}
+
+.logos{
+    width: 95%;
+    height: 200px;
+    background-image: url(Logotypes.png);
+    background-repeat: no-repeat;
+    position: relative;
+    top: 600px;
+}
+
+.services{
+ 
+    position: absolute;    
+    left: 100px;
+    top: 900px;
+}
